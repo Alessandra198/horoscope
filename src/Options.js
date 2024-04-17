@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import axios from "axios";
+//import axios from "axios";
 
 export default function Options() {
   let [sign, setSign] = useState(null);
 
-  function handleResponse(response) {
+  /*function handleResponse(response) {
     console.log(response);
-  }
+  }*/
 
   function search() {
     alert(sign);
