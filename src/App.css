@@ -8,6 +8,7 @@
   padding: 30px;
   margin: 20px auto;
   background-color: rgba(153, 50, 204, 0.43);
+  border-radius: 15px;
 }
 
 .App h1 {

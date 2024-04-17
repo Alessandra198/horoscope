@@ -1,3 +1,4 @@
+import Options from "./Options";
 import "./App.css";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Daily Horoscope</h1>
+        <Options />
       </div>
     </div>
   );
