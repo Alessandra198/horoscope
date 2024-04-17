@@ -3,14 +3,13 @@ import axios from "axios";
 
 export default function Options() {
   let [sign, setSign] = useState(null);
-  let apiUrl = `https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=${sign}&day=TODAY`;
 
   function handleResponse(response) {
     console.log(response);
   }
 
   function search() {
-    axios.get(apiUrl).then(handleResponse);
+    alert(sign);
   }
   function handleSign(event) {
     setSign(event.target.value);
